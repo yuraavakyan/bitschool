@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.result {
+  font-size: 150px;
+}
+
+.button {
+  padding: 50px 100px;
+  background-color: aqua;
+  font-size: 100px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 10px 5px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+body {
+  background-image: linear-gradient(blue, violet, white);
+}
