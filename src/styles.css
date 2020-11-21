@@ -11,6 +11,11 @@
   font-size: 150px;
 }
 
+.disabled {
+  opacity: 0.5;
+  disabled: true;
+}
+
 .button {
   padding: 50px 100px;
   background-color: aqua;

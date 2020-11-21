@@ -31,7 +31,10 @@ class Comp extends Component {
     return (
       <div className="main">
         <div className="wrapper">
-          <button onClick={() => this.handleClick("minus")} className="button">
+          <button
+            onClick={() => this.handleClick("minus")}
+            className={this.state.count == 0 ? "button disabled" : "button"}
+          >
             -
           </button>
           <p className="result">{this.state.count}</p>
